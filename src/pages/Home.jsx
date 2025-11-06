@@ -25,6 +25,7 @@ function Home() {
         {/* Background Video */}
         <video
           className="absolute  w-full h-full object-cover"
+          style={{opacity:"0.7"}}
           src={slider1}
           autoPlay
           loop
