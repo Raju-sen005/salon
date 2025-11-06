@@ -10,7 +10,7 @@ function Contact() {
       {/* Header Section */}
       <section className="relative text-center py-24 px-6 overflow-hidden">
         {/* Background Gradient */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#4C4DDC]/10 via-[#101010] to-[#101010]"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-[#4C4DDC] via-[#101010] to-[#101010]"></div>
         <div className="relative z-10 max-w-3xl mx-auto">
           <h1 className="text-5xl font-extrabold text-[#4C4DDC] mb-4">
             Contact <span className="text-[#C8C8F4]">Us</span>
@@ -74,7 +74,7 @@ function Contact() {
         </div>
 
         {/* Contact Form */}
-        <div className="bg-[#151515] p-8 rounded-2xl border border-[#4C4DDC]/20 shadow-md shadow-[#4C4DDC]/10">
+        <div className="bg-[#151515] p-8 rounded-2xl border border-[#4C4DDC] shadow-md shadow-[#4C4DDC]">
           <h3 className="text-2xl font-semibold text-[#C8C8F4] mb-6 text-center">
             Send Us a Message
           </h3>
@@ -82,17 +82,17 @@ function Contact() {
             <input
               type="text"
               placeholder="Your Name"
-              className="w-full p-3 rounded-xl bg-[#0D0D0D] border border-[#4C4DDC]/20 text-gray-200 focus:border-[#4C4DDC] focus:ring-2 focus:ring-[#4C4DDC]/40 outline-none transition"
+              className="w-full p-3 rounded-xl bg-[#0D0D0D] border border-[#4C4DDC] text-gray-200 focus:border-[#4C4DDC] focus:ring-2 focus:ring-[#4C4DDC] outline-none transition"
             />
             <input
               type="email"
               placeholder="Your Email"
-              className="w-full p-3 rounded-xl bg-[#0D0D0D] border border-[#4C4DDC]/20 text-gray-200 focus:border-[#4C4DDC] focus:ring-2 focus:ring-[#4C4DDC]/40 outline-none transition"
+              className="w-full p-3 rounded-xl bg-[#0D0D0D] border border-[#4C4DDC] text-gray-200 focus:border-[#4C4DDC] focus:ring-2 focus:ring-[#4C4DDC] outline-none transition"
             />
             <textarea
               placeholder="Your Message"
               rows="5"
-              className="w-full p-3 rounded-xl bg-[#0D0D0D] border border-[#4C4DDC]/20 text-gray-200 focus:border-[#4C4DDC] focus:ring-2 focus:ring-[#4C4DDC]/40 outline-none transition resize-none"
+              className="w-full p-3 rounded-xl bg-[#0D0D0D] border border-[#4C4DDC] text-gray-200 focus:border-[#4C4DDC] focus:ring-2 focus:ring-[#4C4DDC] outline-none transition resize-none"
             ></textarea>
 
             <button
@@ -114,7 +114,7 @@ function Contact() {
           height="400"
           allowFullScreen=""
           loading="lazy"
-          className="border-t border-[#4C4DDC]/20"
+          className="border-t border-[#4C4DDC]"
         ></iframe>
       </section>
 

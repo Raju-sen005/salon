@@ -19,7 +19,7 @@ function SalonAgreement() {
         </p>
 
         {/* Salon Details */}
-        <div className="bg-[#151515] p-6 rounded-xl border border-[#4C4DDC]/20 mb-10">
+        <div className="bg-[#151515] p-6 rounded-xl border border-[#4C4DDC] mb-10">
           <p className="text-gray-300 mb-2">
             <span className="font-semibold text-[#C8C8F4]">Company:</span>{" "}
             NoWait (the “Platform”)

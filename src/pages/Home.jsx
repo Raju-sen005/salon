@@ -24,7 +24,7 @@ function Home() {
         ></div> */}
         {/* Background Video */}
         <video
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute  w-full h-full object-cover"
           src={slider1}
           autoPlay
           loop
@@ -33,10 +33,10 @@ function Home() {
         ></video>
 
         {/* Overlay Gradient */}
-        <div className="absolute inset-0 bg-black/80"></div>
+        <div className="absolute  bg-black"></div>
 
         {/* Glow Circle */}
-        <div className="absolute w-96 h-96 bg-[#4C4DDC]/30 blur-3xl rounded-full top-20 left-1/2 -translate-x-1/2"></div>
+        <div className="absolute w-96 h-96 bg-[#4C4DDC]/0 blur-3xl rounded-full top-20 left-1/2 -translate-x-1/2"></div>
 
         {/* Content */}
         <div className="relative z-10 max-w-3xl">
@@ -62,7 +62,7 @@ function Home() {
         </div>
 
         {/* Divider Line */}
-        <div className="absolute bottom-10 w-2/3 h-px bg-gradient-to-r from-transparent via-[#4C4DDC]/40 to-transparent"></div>
+        <div className="absolute bottom-10 w-2/3 h-px bg-gradient-to-r from-transparent via-[#4C4DDC] to-transparent"></div>
       </main>
 
       {/* Our Story Section */}
@@ -84,11 +84,11 @@ function Home() {
         </div>
 
         <div className="relative">
-          <div className="w-full h-80 bg-gradient-to-br from-[#4C4DDC]/20 to-[#C8C8F4]/20 rounded-3xl blur-sm"></div>
+          <div className="w-full h-80 bg-gradient-to-br from-[#4C4DDC] to-[#C8C8F4] rounded-3xl blur-sm"></div>
           <img
             src={salon}
             alt="Salon"
-            className="absolute inset-0 w-full h-full object-cover rounded-3xl border border-[#4C4DDC]/20 shadow-lg shadow-[#4C4DDC]/10"
+            className="absolute inset-0 w-full h-full object-cover rounded-3xl border border-[#4C4DDC] shadow-lg shadow-[#4C4DDC]"
           />
         </div>
       </section>
@@ -120,7 +120,7 @@ function Home() {
           ].map((item, i) => (
             <div
               key={i}
-              className="bg-[#151515] p-8 rounded-2xl border border-[#4C4DDC]/20 hover:border-[#4C4DDC]/60 hover:shadow-lg hover:shadow-[#4C4DDC]/20 transition-all duration-300"
+              className="bg-[#151515] p-8 rounded-2xl border border-[#4C4DDC] hover:border-[#4C4DDC] hover:shadow-lg hover:shadow-[#4C4DDC] transition-all duration-300"
             >
               <div className="text-4xl mb-4">{item.icon}</div>
               <h3 className="text-xl font-semibold text-[#C8C8F4] mb-2">

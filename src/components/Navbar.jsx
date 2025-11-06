@@ -22,8 +22,8 @@ function Navbar() {
     <nav
       className={`w-full fixed top-0 left-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "backdrop-blur-md bg-[#101010]/80 shadow-lg border-b border-[#4C4DDC]/20"
-          : "bg-[#101010] border-b border-[#4C4DDC]/20"
+          ? "backdrop-blur-md bg-[#101010] shadow-lg border-b border-[#4C4DDC]"
+          : "bg-[#101010] border-b border-[#4C4DDC]"
       }`}
     >
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
@@ -109,7 +109,7 @@ function Navbar() {
 
       {/* Mobile Navigation Menu */}
       {isOpen && (
-        <div className="md:hidden bg-[#101010]/95 backdrop-blur-lg border-t border-[#4C4DDC]/20 px-6 py-4 space-y-4 animate-slideDown">
+        <div className="md:hidden bg-[#101010] backdrop-blur-lg border-t border-[#4C4DDC] px-6 py-4 space-y-4 animate-slideDown">
           {[
             { to: "/", label: "Home" },
             { to: "/how-it-works", label: "How It Works" },

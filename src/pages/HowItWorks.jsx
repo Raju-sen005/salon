@@ -37,7 +37,7 @@ function HowItWorks() {
       {/* Header Section */}
       <section className="relative text-center py-24 px-6 overflow-hidden">
         {/* Subtle Gradient Background */}
-        <div className="absolute inset-0 bg-gradient-to-b from-[#4C4DDC]/10 via-[#101010] to-[#101010]"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-[#4C4DDC] via-[#101010] to-[#101010]"></div>
         <div className="relative z-10 max-w-3xl mx-auto">
           <h1 className="text-5xl font-extrabold text-[#4C4DDC] mb-4">
             How <span className="text-[#C8C8F4]">NoWait</span> Works
@@ -53,7 +53,7 @@ function HowItWorks() {
         {steps.map((step) => (
           <div
             key={step.id}
-            className="flex flex-col items-center text-center bg-[#151515] p-8 rounded-2xl border border-[#4C4DDC]/20 hover:border-[#4C4DDC]/60 hover:shadow-lg hover:shadow-[#4C4DDC]/20 transition-all duration-300"
+            className="flex flex-col items-center text-center bg-[#151515] p-8 rounded-2xl border border-[#4C4DDC] hover:border-[#4C4DDC] hover:shadow-lg hover:shadow-[#4C4DDC] transition-all duration-300"
           >
             <div className="text-5xl mb-4">{step.icon}</div>
             <h3 className="text-xl font-semibold text-[#C8C8F4] mb-2">
