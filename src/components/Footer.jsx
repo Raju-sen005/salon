@@ -22,7 +22,7 @@ function Footer() {
           {/* App Download Buttons */}
           <div className="flex space-x-3 mt-5">
             <a
-              href="https://www.freelancer.com/find/coding?gad_source=1&gad_campaignid=1014856946&gclid=Cj0KCQiAiKzIBhCOARIsAKpKLANLLwts9-bPR_JdXfPYoB3qs_l_gs79bs6Wd-48vfaJgUJurnvQPw8aAhgsEALw_wcB"
+              href="https://www.apple.com/app-store/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -33,7 +33,7 @@ function Footer() {
               />
             </a>
             <a
-              href="https://www.freelancer.com/find/coding?gad_source=1&gad_campaignid=1014856946&gclid=Cj0KCQiAiKzIBhCOARIsAKpKLANLLwts9-bPR_JdXfPYoB3qs_l_gs79bs6Wd-48vfaJgUJurnvQPw8aAhgsEALw_wcB"
+              href="https://play.google.com/store"
               target="_blank"
               rel="noopener noreferrer"
             >
