@@ -132,14 +132,14 @@ function Footer() {
             <li>
               Email:{" "}
               <a
-                href="mailto:support@nowait.com"
+                href="mailto:nowaitinsaloon@gmail.com"
                 className="hover:text-[#4C4DDC]"
               >
-                support@nowait.com
+                nowaitinsaloon@gmail.com
               </a>
             </li>
             <li>
-              Phone: <span className="text-[#4C4DDC]">+91 98765 43210</span>
+              Phone: <span className="text-[#4C4DDC]">+91 70233 02672</span>
             </li>
           </ul>
 

@@ -43,19 +43,19 @@ function Contact() {
             <p className="flex items-center gap-3">
               <FaPhoneAlt className="text-[#4C4DDC] text-xl" />{" "}
               <a
-                href="tel:+919876543210"
+                href="tel:+917023302672"
                 className="hover:text-[#C8C8F4] transition"
               >
-                +91 98765 43210
+                +91 70233 02672
               </a>
             </p>
             <p className="flex items-center gap-3">
               <FaEnvelope className="text-[#4C4DDC] text-xl" />
               <a
-                href="mailto:support@nowait.com"
+                href="mailto:nowaitinsaloon@gmail.com"
                 className="hover:text-[#C8C8F4] transition"
               >
-                support@nowait.com
+                nowaitinsaloon@gmail.com
               </a>
             </p>
           </div>
